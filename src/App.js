@@ -14,7 +14,7 @@ function App() {
           <br />
           Tempora omnis impedit necessitatibus.
         </p>
-        <a href="#">Download CV</a>
+        <a href="#">more inf</a>
       </section>
       <section class="img-box">
         <img src="pattern.png" className="black-img" />

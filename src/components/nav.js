@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./globalStyle.css"
+import {Collapse} from 'react-collapse';
 
 const Navbar = () => {
     const handleIcon = ()=>{
@@ -13,13 +14,19 @@ const Navbar = () => {
         }
     }
 
+    const handleCollapse = () =>{
+      
+        
+    }
+
   return (
     <>
       <nav>
         <img src="hamresaan.png" alt="logo" className="logo" />
         <ul>
-          <li>
+          <li onClick={handleCollapse}>
             <a href="#">HOME</a>
+            <i className="bi bi-caret-down px-1" id="caret-right" ></i>
           </li>
           <li>
             <a href="#">ABOUT</a>
