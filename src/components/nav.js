@@ -14,20 +14,23 @@ const Navbar = () => {
         }
     }
 
-    const handleCollapse = () =>{
-      
-        
-    }
-
   return (
     <>
-      <nav>
+      <nav className="navbar">
         <img src="hamresaan.png" alt="logo" className="logo" />
         <ul>
-          <li onClick={handleCollapse}>
-            <a href="#">HOME</a>
-            <i className="bi bi-caret-down px-1" id="caret-right" ></i>
-          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            HOME
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"/></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
           <li>
             <a href="#">ABOUT</a>
           </li>
