@@ -48,6 +48,9 @@
   .nav-link{
     color: var(--secondary-color);
   }
+  .nav-link:hover{
+    color: #ff4321;
+  }
   nav ul li a {
     text-decoration: none;
     color: var(--secondary-color);
