@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <img src="" alt="logo" className="logo" />
+        <img src="hamresaan.png" alt="logo" className="logo" />
         <ul>
           <li>
             <a href="#">HOME</a>
@@ -34,7 +34,7 @@ const Navbar = () => {
             <a href="#">HIRE ME</a>
           </li>
         </ul>
-        <img src="sun.png" id="icon" onClick={handleIcon}/>
+        <img src="moon.png" id="icon" onClick={handleIcon}/>
       </nav>
     </>
   );

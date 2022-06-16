@@ -17,8 +17,8 @@ function App() {
         <a href="#">Download CV</a>
       </section>
       <section class="img-box">
-        <img src="images/pattern.png" className="black-img" />
-        <img src="images/girl.png" className="main-img" />
+        <img src="pattern.png" className="black-img" />
+        <img src="girl.png" className="main-img" />
       </section>
       <section class="socials">
         <a href="">
