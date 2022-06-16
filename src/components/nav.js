@@ -51,26 +51,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-<>
-  <nav>
-    <img src="images/logo.png" alt="logo" class="logo" />
-    <ul>
-      <li>
-        <a href="#">HOME</a>
-      </li>
-      <li>
-        <a href="#">ABOUT</a>
-      </li>
-      <li>
-        <a href="#">PORTFOLIO</a>
-      </li>
-      <li>
-        <a href="#">SERVICES</a>
-      </li>
-      <li>
-        <a href="#">HIRE ME</a>
-      </li>
-    </ul>
-    <img src="icons/moon.png" id="icon" />
-  </nav>
-</>;
