@@ -3,7 +3,8 @@ import "./components/globalStyle.css";
 
 function App() {
   return (
-    <section className="hero">
+    <>
+      <section className="hero">
       <Navbar />
       <section className="info">
         <h1>
@@ -32,6 +33,7 @@ function App() {
         </a>
       </section>
     </section>
+    </>
   );
 }
 
