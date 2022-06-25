@@ -11,7 +11,7 @@ function App() {
           I'm <span>Shaden</span> Ghasri
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit,
+          Lorem ipsum dolor site amet consectetur adipisicing elit,
           <br />
           Tempora omnis impedit necessitatibus.
         </p>
