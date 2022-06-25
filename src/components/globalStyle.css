@@ -6,6 +6,7 @@
     --primary-color: #edf2fc;
     --secondary-color: #212121;
   }
+  
   .dark {
     --primary-color: #000106;
     --secondary-color: #fff;
