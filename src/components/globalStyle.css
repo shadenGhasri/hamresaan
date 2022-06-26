@@ -45,15 +45,17 @@
     width: 100px;
     cursor: pointer;
   }
-  
+
   nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
   }
+
   .nav-link{
     color: var(--secondary-color);
   }
+  
   .nav-link:hover{
     color: #ff4321;
   }
