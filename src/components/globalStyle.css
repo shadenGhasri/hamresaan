@@ -55,17 +55,20 @@
   .nav-link{
     color: var(--secondary-color);
   }
-  
+
   .nav-link:hover{
     color: #ff4321;
   }
+
   nav ul li a {
     text-decoration: none;
     color: var(--secondary-color);
   }
+
   nav ul li a:hover {
     color: #ff4321;
   }
+  
   .info {
     margin-left: 8%;
     margin-top: 15%;
