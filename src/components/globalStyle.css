@@ -68,16 +68,18 @@
   nav ul li a:hover {
     color: #ff4321;
   }
-  
+
   .info {
     margin-left: 8%;
     margin-top: 15%;
   }
+
   .info h1 {
     font-size: 70px;
     color: var(--secondary-color);
     margin-bottom: 20px;
   }
+  
   span {
     color: #ff4321;
   }
